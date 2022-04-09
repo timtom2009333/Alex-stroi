@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <style>
+    body {
+overflow-x: hidden;
+background-color: #FFE3BA;
+        color: #3b333b;
+font-family: 'Roboto Condensed', sans-serif;
+max-height: 100%;
+}
+.iframe_conteyner {
+    height: 0px;
+    padding-bottom: 56.2%;
+    position: relative;
+}
+header {
+      position:fixed;
+      left: 0;
+      top:0;  
+      z-index:100;
+      width: 100%;
+      height: 50px;
+      background-color: #FFC441;
+      line-height: 13px;
+    }
+
+    
+
+    #gall {
+   margin-left: 30%;
+  position: relative;
+  padding-top: 50%;
+  -moz-user-select: none; user-select: none;
+}
+#gall img {
+  position: absolute;
+  top: 25%;
+  left: 12.5%;
+  max-width: 60.0%;
+  max-height: 83.0%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: zoom-in;
+  transition: .2s;
+}
+#gall img:nth-child(4n-2) {left: 37.5%;}
+#gall img:nth-child(4n-1) {left: 62.5%;}
+#gall img:nth-child(4n) {left: 87.5%;}
+#gall img:nth-child(n+5) {top: 75%;}
+
+#gall img:focus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  max-width: 100%;
+  max-height: 100%;
+  outline: none;
+  pointer-events: none;
+}
+#gall img:focus ~ div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #FFE3BA;
+  cursor: zoom-out;
+}
+
+  </style>
+  <center>
+    <header>
+      <div><h1>Алекс Дом</h1></div>
+      </header>
+      </center>
+      <br><br>
+      <center>
+     	 <img src="logo.jpg" width="70%"/>
+        <br>   <br>   <br>
+<h2>Кто мы такие?</h2>   <br>   
+           <h4>✨Строительная компания АлексДом - молодая, динамично развивающаяся компания с большим опытом работы по строительству домов и бань из бруса</h4>
+   <div id="gall">
+       <img src="фон.jpg"  tabindex="0" border="3"/>
+       <div></div>
+      </div>
+   <h2>Чего мы хотим?</h2><br>
+   <h4>✨Чтоб наши клиенты обретали домики своей мечты и жили не тужили, и в баньке чтобы парились и жизни радовались 😊</h4>
+    <div id="gall">
+       <img src="fon2.jpg"  tabindex="0" border="3"/>
+       <div></div>
+      </div>
+<h2>Что мы умеем?</h2><br>
+ <h4>✨Качественно и в срок построим дом или баню, умеем и под ключ, умеем делать самые выгодные предложения на рынке и умеем принимать все виды расчёта</h4>
+   <div id="gall">
+       <img src="fon.jpg"  tabindex="0" border="3"/>
+       <div></div>
+      </div>
+<h5>🌟Мы всегда учитываем ваши пожелания🌟<br><br>
+Вы ещё не построили дом, тогда мы едем к Вам)</h5>
+ <br>  <div id="gall">
+       <img src="809.jpg"  tabindex="0" border="3"/>
+       <div></div>
+      </div>
+<h2>Оставить заявку</h2>
+    </center>
+
+<div class="iframe_conteyner">
+<script src="https://yastatic.net/s3/frontend/forms/_/embed.js"></script><iframe src="https://forms.yandex.ru/u/625148e17dd00eea8b46fb78/?iframe=1" frameborder="0" name="ya-form-625148e17dd00eea8b46fb78" width="100%" height="100%" style="width: 100%; height: 60%; position: absolute;" ></iframe> 
+ </div>
+</body>
+</html> 
+
+
